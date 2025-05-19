@@ -1,0 +1,68 @@
+/* body {
+  background-image: url(../img/register-bg.png);
+  background-size: cover;
+  min-height: 100dvh;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("/img/register-bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-container {
+  width: 300px;
+  background: rgba(255, 192, 203, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #e57373;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ef5350;
+}
+
+.forgot {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
